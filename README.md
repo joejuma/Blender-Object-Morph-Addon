@@ -1,9 +1,10 @@
-# Blender Addon: Object Shape Key
-##Introduction
-  This is a Blender addon that let's you transform one or more meshes into a single target mesh as long as all the meshes involved have the same vertex count.
+# Blender Addon: Object Morph
+
+## Description
+This is a Blender addon that let's you transform one or more meshes into a single target mesh as long as each meshe has the same number of vertices.
 
 ## Installation
-1. Download the 'Skao.py' file, save it somewhere you can remember
+1. Download the 'Skao.py' file and save it somewhere you can remember on your computer.
 2. Open Blender and go to the menu bar at the top of the screen and select "File"
 3. Navigate to the, "User Preferences..." Option, click this
 4. A window should appear with buttons at the top, one should say,"Addons" click on this button.
@@ -13,7 +14,7 @@
   * If you open a new file or reload the file without saving, you will have to redo this process.
   * If you want this addon installed by default in all future projects, first open up a brand new file before following this, then hit "Save User Settings" in the "User Prefences" window. This will save whatever setup you have currently in Blender as your new startup file; so don't do this unless you want your current Blender configuration to be your new Default!
   
-## How To Use
+## Use
 1. Shift-Click all of the objects that you want to transform, these will be known as your "Selected Objects"
 2. Without deselecting your "Selected Objects", shift-click the object you want to transform them into, this will be highlighted a different color than them and be known as your "Active Object". You can only have one "Active Object"
 3. Tap your Space-Bar and type in, "Shape Keys" until you find the option, "Shape Key: Active Object", click this.
